@@ -30,7 +30,7 @@ def check():
         if user_id in users:
         # pwd = request.form['pwd']
             session['user_id'] = user_id
-            if pwd == "janetaylor":
+            if pwd == "thalaforareason":
                 c2 = True
                 ans2 = "first link"
                 return welcome_to_r2()
